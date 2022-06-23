@@ -1,0 +1,9 @@
+<div class="products">
+  <article *ngFor="let product of products">
+        <img alt="{{product.name}}" src="{{product.image}}">
+        <p>
+          <small>{{product.name}}</small>
+        </p>
+      </article>
+  <button (click)="handleLogout()">Log out</button>
+</div>
